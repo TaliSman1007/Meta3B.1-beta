@@ -1,0 +1,98 @@
+WARNING:root:DUGA has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\student\Desktop\_py_\raycast\DUGA-master\MAIN.py", line 447, in main_loop
+    render_screen(gameCanvas.canvas)
+  File "C:\Users\student\Desktop\_py_\raycast\DUGA-master\MAIN.py", line 294, in render_screen
+    gameInv.draw(gameCanvas.canvas)
+  File "C:\Users\student\Desktop\_py_\raycast\DUGA-master\INVENTORY.py", line 218, in draw
+    self.draw_menu(canvas)
+  File "C:\Users\student\Desktop\_py_\raycast\DUGA-master\INVENTORY.py", line 324, in draw_menu
+    SETTINGS.held_ammo[SETTINGS.inventory[self.selected].ammo_type] += SETTINGS.current_gun.current_mag
+AttributeError: 'NoneType' object has no attribute 'current_mag'
+WARNING:root:DUGA has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "D:\META-master\MAIN.py", line 444, in main_loop
+    render_screen(gameCanvas.canvas)
+  File "D:\META-master\MAIN.py", line 291, in render_screen
+    gameInv.draw(gameCanvas.canvas)
+  File "D:\META-master\INVENTORY.py", line 218, in draw
+    self.draw_menu(canvas)
+  File "D:\META-master\INVENTORY.py", line 324, in draw_menu
+    SETTINGS.held_ammo[SETTINGS.inventory[self.selected].ammo_type] += SETTINGS.current_gun.current_mag
+AttributeError: 'NoneType' object has no attribute 'current_mag'
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "D:\META-master\MAIN.py", line 463, in main_loop
+    update_game()
+  File "D:\META-master\MAIN.py", line 308, in update_game
+    npc.think()
+  File "D:\META-master\NPC.py", line 174, in think
+    self.move()
+  File "D:\META-master\NPC.py", line 522, in move
+    self.path = PATHFINDING.pathfind(self.map_pos, random.choice(available_pos).map_pos)
+  File "C:\Users\student\AppData\Local\Programs\Python\Python39\Lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "D:\META-master\MAIN.py", line 463, in main_loop
+    update_game()
+  File "D:\META-master\MAIN.py", line 308, in update_game
+    npc.think()
+  File "D:\META-master\NPC.py", line 174, in think
+    self.move()
+  File "D:\META-master\NPC.py", line 437, in move
+    if self.path and self.rect.center != self.path[-1].rect.center and self.health > 0 and not self.hurting:
+KeyError: -1
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "D:\META-master\MAIN.py", line 463, in main_loop
+    update_game()
+  File "D:\META-master\MAIN.py", line 308, in update_game
+    npc.think()
+  File "D:\META-master\NPC.py", line 174, in think
+    self.move()
+  File "D:\META-master\NPC.py", line 437, in move
+    if self.path and self.rect.center != self.path[-1].rect.center and self.health > 0 and not self.hurting:
+KeyError: -1
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 463, in main_loop
+    update_game()
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 308, in update_game
+    npc.think()
+  File "C:\Users\student\Desktop\META-master\NPC.py", line 174, in think
+    self.move()
+  File "C:\Users\student\Desktop\META-master\NPC.py", line 449, in move
+    if self.rect.colliderect(self.path[self.path_progress].rect) and self.path[self.path_progress] != self.path[-1]:
+TypeError: 'NoneType' object is not subscriptable
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 444, in main_loop
+    render_screen(gameCanvas.canvas)
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 292, in render_screen
+    EFFECTS.render(gameCanvas.canvas)
+  File "C:\Users\student\Desktop\META-master\EFFECTS.py", line 52, in render
+    show_title(canvas)
+  File "C:\Users\student\Desktop\META-master\EFFECTS.py", line 140, in show_title
+    author.update_string("BY  %s" % SETTINGS.levels_list[SETTINGS.current_level].author)
+AttributeError: 'Level' object has no attribute 'author'
+WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 463, in main_loop
+    update_game()
+  File "C:\Users\student\Desktop\META-master\RUN.py", line 308, in update_game
+    npc.think()
+  File "C:\Users\student\Desktop\META-master\NPC.py", line 174, in think
+    self.move()
+  File "C:\Users\student\Desktop\META-master\NPC.py", line 449, in move
+    if self.rect.colliderect(self.path[self.path_progress].rect) and self.path[self.path_progress] != self.path[-1]:
+TypeError: 'NoneType' object is not subscriptable
